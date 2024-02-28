@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700,800|Righteous&display=swap');
+
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Dosis', sans-serif;
+*/
+
+
+
+*{
+    padding: 0px;
+	margin: 0px;
+}
+
+body{
+    background-color: rgb(192, 120, 161);
+}
+
+.container-fluid{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.fluid-p{
+	margin-top: -110px !important;
+}
+
+.jony{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.jony h2{
+	font-family: 'Righteous';
+	font-size: 60px;
+	text-align: center;
+	color: rgb(19, 12, 11);
+}
+
+
+.jony p{
+	font-family: 'Righteous';
+	font-size: 20px;
+	text-align: center;
+	color: rgb(19, 12, 11);
+}
+
+.cabezera{
+    padding: 10px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background: transparent;
+	background-color: rgba(255 255 255 / 0.5);
+	position: relative;
+	z-index: 10;
+}
+
+.lol{
+	object-fit: cover;
+	object-position: center;
+	aspect-ratio: 16/9;
+	height: calc(100vh - 110px);
+}
+
+.cabezera img{
+	width: 100px;
+	align-items: center;
+}
+
+
+.botons{
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+	gap: 20px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+	margin: inherit;
+}
+
+.botons a{
+	color: wheat;
+	text-decoration: none;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 10px;
+	margin: inherit;
+}
+
+.banner{
+	height: 100%;
+	background-size: cover;
+	margin-bottom: -110px;
+}
+
+.banner .container{
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 100%;
+	margin: none;
+	padding: none;
+}
+
+
+
+
+/* Segundo apartado página principal: Contingut de la Web */
+
+
+
+
+.contin{
+	width: 100%;
+	height: 700px;
+	padding-top: 130px;
+	background-color: rgb(220, 202, 228);
+}
+
+.contin p{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: #2b3b69;
+}
+
+.contin h2{
+	padding-top: 30px;
+	font-family: 'Righteous'
+	'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #ad5ea3;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.blocs{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+
+.stick{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-color: #24334e;
+	width: 300px;
+	height: 300px;
+	border: 1px solid rgb(146, 127, 127);
+	justify-self: center;
+	background-color: rgb(202, 164, 218);
+	color: black;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+
+.stick:hover{
+	color: white;
+	background: rgb(206, 138, 187);
+	transition-duration: 0.5s;
+}
+
+.stick:hover h3{
+	color: white;
+}
+
+.stick img{
+	width: 60px;
+	justify-content: center;
+}
+
+.stick h3{
+	text-align: center;
+	margin-bottom: 40px;
+	border-bottom: 1px solid dimgray;
+	color: rgb(105, 25, 25);
+	font-family: 'Dosis', sans-serif;
+	padding-bottom: 10px;
+	height: 80px;
+	width: 270px;
+	padding-top: 20px;
+
+}
+
+/* Propiedades iconos */
+
+.kid{
+	font-size: 70px;
+}
+
+.per{
+	font-size: 70px;
+}
+
+.sm{
+	font-size: 70px;
+}
+
+/* Fin de propiedades de iconos */
+.culo p{
+	width: 179px;
+	color: white;
+}
+
+/* Inicio Apartado "Qui Som?" */
+
+.qsom{
+	background: #a4bdeb;
+	width: 100%;
+	height: 1250px;
+	padding-top: 130px;
+}
+
+.nav-link-dropdown-toggle{
+	color: white;
+}
+
+
+.qsom h2{
+	padding-top: 30px;
+	font-family: 'Righteous'
+	'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+	color white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.qsom p{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: #2b3b69;
+}
+
+.caj{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	justify-content: center;
+}
+
+.io{
+	font-size: 70px;
+	margin-bottom: 30px;
+}
+
+.stickk{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-color: #24334e;
+	width: 300px;
+	height: 300px;
+	border: 1px solid dimgray;
+	justify-self: center;
+}
+
+.box{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.vox{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-color: #24334e;
+	width: 200px;
+	padding: 60px;
+	height: 550px;
+	border: 3px solid #111111;
+	justify-self: center;
+	box-shadow: 0px 0px 3px #111111;
+}
+
+.vox2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-color: #24334e;
+	width: 200px;
+	padding: 20px;
+	height: 550px;
+	border: 3px solid #111111;
+	justify-self: center;
+	box-shadow: 0px 0px 3px #111111;
+}
+
+.vox p{
+	margin-bottom: 40px;
+}
+
+.vox3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-color: #24334e;
+	width: 200px;
+	padding: 50px;
+	height: 550px;
+	border: 3px solid #111111;
+	justify-self: center;
+	box-shadow: 0px 0px 3px #111111;
+}
+
+.vox3 h2{
+	margin-top: 25px;
+}
+
+.box h2{
+	font-size: 20px;
+}
+
+.box p{
+	font-size: 18px;
+}
+
+/* PIE DE PÀGINA */
+.fin p{
+	text-align: right;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.fin{
+	background-color: burlywood;
+}
+
+
+.cabe{
+	font-size: 120%;
+	text-decoration: color(black)
+}
